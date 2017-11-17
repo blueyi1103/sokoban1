@@ -71,7 +71,7 @@ http.createServer((request, response) => {
       response.end();
     }
   });
-}).listen(8080);
+}).listen(8088);
 
 // log message to Console
 console.log('伺服器啓動，連線 url:  http://127.0.0.1:8088/');
