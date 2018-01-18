@@ -569,7 +569,7 @@ let sokoban = {
     var nogoal = 1;
 
     for(var y=0; y<this.level.length; y++){
-      for(var x=0; x<this.level.length; x++;){
+      for(var x=0; x<this.level.length; x++){
         if(this.level[y].charAt(x)== SOKOBAN.BOX_ON_GOAL ) boxgoal=1;
         if(this.level[y].charAt(x)== SOKOBAN.GOAL ||
             this.level[y].charAt(x)== SOKOBAN.MAN_ON_GOAL ) nogoal=0;
@@ -577,7 +577,7 @@ let sokoban = {
     }
 
     if(boxongoal && nogoal)
-      alert("You Win!!")
+      alert("You Win!!");
 
   },
 };
