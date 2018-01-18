@@ -576,7 +576,7 @@ let sokoban = {
       }
     }
 
-    if(boxongoal && nogoal)
+    if(boxgoal && nogoal)
       alert("You Win!!");
 
   },
